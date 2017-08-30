@@ -148,7 +148,7 @@ namespace Yahtzee
                 Console.WriteLine("\t\t" + Score);
                 Console.WriteLine("\n---------------------------------------------");
 
-                //Na het einde van 3x werpen
+                //Na het einde van 3x werpen, spel afsluiten?
                 Console.WriteLine("\nSpel is afgelopen.\nWil je een nieuw spel starten?");
                 StartOrEndGame.StartGame(ref NextGame);
 
